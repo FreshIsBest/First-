@@ -54,6 +54,28 @@ Standing note: the channel name "Flock Fantasy Rewind" still implies
 affiliation and was not covered by this decision either - see the Name entry
 in brand.md.
 
+## Section C-2: ACTIVE money-maker (pivoted, same day)
+
+Owner paused the above and pivoted to an EXISTING sports card account instead:
+- Handle: kereks_sports (Instagram and TikTok - already exists, dormant).
+- Niche: mainly football cards, some basketball.
+- Vibe: genuine hobbyist/collector showing off his own collection, with a
+  secondary goal of flipping cards for profit. Not purely business-flip
+  content, and not purely PC (personal collection) showcase - both.
+  This is entirely the owner's own real cards/photography/video - no
+  third-party content rights questions at all, unlike the fantasy football
+  path above.
+- The actual problem: not content quality, just inactivity - no posts in
+  about 4 years (since college).
+- Owner does NOT want to address the gap as a "comeback" narrative - just
+  start posting fresh going forward, no explanation of the hiatus.
+- Everything else from the original interview (Section 0, A, B, D, E, F)
+  still applies unless the owner says otherwise: total-beginner tech comfort,
+  Windows, VPS routing decision, Claude Pro engine, a few hours/week, tight
+  approvals, first win = first 10 posts. Daily spend cap still not set, but
+  likely moot for this path since real card content needs no paid AI
+  generation tools (it is the owner's own photography/video).
+
 **5b. Trading module:** No / not now. Trading gate NOT passed. Do not build `modules/analyst-agent.md` or `modules/paper-trading.md`.
 
 **6. Starting point:** Starting cold, nothing live yet.
