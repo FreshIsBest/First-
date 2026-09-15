@@ -48,7 +48,7 @@ Target handle: flockfantasyrewind (same across every platform if available).
 
 Platform account checklist (content-engine.md Step 0):
 - [x] Gmail / shared login email created.
-- [ ] YouTube channel (@flockfantasyrewind or closest match).
+- [x] YouTube channel: @FlockFantasyRewind
 - [ ] Facebook Page (create before Instagram).
 - [ ] Instagram, switched to Professional/Business, linked to the Facebook Page.
 - [ ] TikTok, switched to Business account.
