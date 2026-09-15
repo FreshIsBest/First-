@@ -52,7 +52,17 @@ to the automation step.
   owner's stated under-$25/mo cap. Not urgent, but flag again before signing up
   for a VPS.
 
-## Next action
+## PIVOT (2026-09-15, same day, later): money-maker changed
+Owner is pausing the Flock Fantasy Rewind build (fantasy football content)
+to focus on an EXISTING sports card Instagram + TikTok instead, asking for
+help making better content there. Everything above is preserved, not
+deleted - Flock Fantasy Rewind can be resumed later if the owner wants.
+Gathering real details on the sports card accounts now (handles, current
+content, what "better" means) before building anything, per rule 6 (build
+from real answers, do not guess). See PROFILE.md for the fresh notes once
+captured.
+
+## Next action (OLD - Flock Fantasy Rewind, paused)
 Owner is on a lunch pause. When they're back:
 1. Resume Facebook Page name fix, then Instagram (needs the Page linked).
 2. Then Pinterest.

@@ -39,7 +39,20 @@ The owner does NOT currently have direct, confirmed permission to clip and repos
 
 **What is NOT gated and can proceed now:** the channel's own identity (name/handle, look, voice) -- this does not depend on the rights question and is safe to build today (Step 1 of 03-build-order.md).
 
-**Next action for the owner (parallel to-do, not blocking today's build):** confirm participation in the Flock League's clipper program / get an explicit yes before we wire the actual video-sourcing and posting pipeline (Step 2 of 03-build-order.md, tool wiring).
+**Decision (updated):** owner could not reach Mason Dodd directly, and the only
+confirmation obtained was a DM "yes" from an unnamed team manager, which the AI
+flagged as too narrow/unverifiable to authorize clipping the full league's
+content. Owner agreed to pivot: instead of clipping real Flock League footage,
+the content pipeline uses **real fantasy football stats/facts + AI-generated
+visuals** (the content-engine.md module's actual default design - the asset
+step generates video from a text brief, it does not require lifting anyone's
+existing footage). This sidesteps the rights question entirely for the
+pipeline itself. The channel can still reference real, public fantasy
+outcomes/stats as talking points (facts are not copyrightable); it must not
+download or repost anyone's actual video footage.
+Standing note: the channel name "Flock Fantasy Rewind" still implies
+affiliation and was not covered by this decision either - see the Name entry
+in brand.md.
 
 **5b. Trading module:** No / not now. Trading gate NOT passed. Do not build `modules/analyst-agent.md` or `modules/paper-trading.md`.
 

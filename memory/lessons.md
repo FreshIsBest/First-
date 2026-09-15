@@ -12,3 +12,6 @@ Plain, one-line lessons the crew should not repeat. Newest at the bottom.
   impersonation signals and raises real trademark/suspension risk. Use an
   original logo instead (generate one once the image tool is wired up, or a
   simple typographic placeholder in the brand palette in the meantime).
+- Content plan changed: pipeline uses real fantasy stats + AI-generated
+  visuals, NOT clips of anyone else's footage (see PROFILE.md Section C).
+  Never build a task that downloads or reposts someone else's video content.
