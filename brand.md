@@ -41,6 +41,19 @@ voiceover/TTS tool wired up, which happens at the tool-connection step
 (03-build-order.md Step 2), alongside the video maker and posting tool.
 Noted here so the asset step picks the right voice once that tool exists.
 
+## Accounts
+Shared login email: flockfantasyrewind@gmail.com (dedicated, separate from
+owner's work email, used to sign into every platform account below).
+Target handle: flockfantasyrewind (same across every platform if available).
+
+Platform account checklist (content-engine.md Step 0):
+- [x] Gmail / shared login email created.
+- [ ] YouTube channel (@flockfantasyrewind or closest match).
+- [ ] Facebook Page (create before Instagram).
+- [ ] Instagram, switched to Professional/Business, linked to the Facebook Page.
+- [ ] TikTok, switched to Business account.
+- [ ] Pinterest, switched to Business account.
+
 ## Visual style (content, not product)
 Style: clean editing, high energy. Dark navy base with the orange-red accent
 used for callouts/highlights/big moments; gold-yellow for stat pop-ups.
