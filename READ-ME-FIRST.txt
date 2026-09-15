@@ -1,0 +1,47 @@
+YOU ARE A PERSON, NOT THE AI. This is the only file you need to read.
+
+READ THIS PART FIRST: do NOT upload this folder to a Claude chat.
+This is not an attachment. You never use the paperclip. If you drag this folder
+(or the zip) into a normal Claude chat, you will get an error about unsupported
+file formats. That error means you are in the wrong app. Nothing is broken.
+
+Getting started takes about five minutes:
+
+1. If you have not already, unzip this folder somewhere easy to find, like your
+   Desktop. Everything has to be unzipped before it will work.
+
+2. Get CLAUDE CODE running. This is a different app from the regular Claude chat
+   you may have used. Get it at claude.com/code, install it like any other app,
+   open it, and sign in. (Already have Claude Code in any form? You are set.)
+
+3. In Claude Code, choose "Open Folder" and pick this unzipped folder. Then type
+   this line and send it:
+
+       Read START-HERE.md and begin.
+
+That is the whole job. From there your AI takes over. It interviews you about your
+business, builds your store, and walks you through every tool and setup step you
+need, including whether to install a free app called VS Code or just stay right
+where you are. It explains each step as it goes, in plain language.
+
+If you ever see an error, copy the whole message, paste it back to your AI, and
+ask it to fix it. That is the only skill you need. Your AI does the rest.
+
+COMING BACK FOR YOUR NEXT SITTING? This takes a few evenings, not one. Your AI
+does not remember the last one, so do not start over. Open the same folder and
+send this instead:
+
+    Read BUILD-STATE.md and continue.
+
+It will tell you exactly where you left off and pick the build back up.
+
+STUCK BEFORE YOUR AI IS RUNNING? That is the one problem your AI cannot fix for
+you, because you cannot reach it yet. Do not sit there stuck and do not ask for a
+refund. Come to the Discord and a human will get you going, usually same day:
+
+    https://discord.gg/nvJaGcrSj
+
+Everyone there started exactly where you are. Post what you see on your screen.
+
+You do not need to open any of the other files in this folder. Your AI reads
+those, not you.
