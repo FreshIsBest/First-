@@ -30,6 +30,17 @@ Flagged: Claude Code Pro (~$20) + a cheap VPS (~$5-6, needed later for the 24/7 
 **5. First money-maker:** A content channel that drives traffic -> `modules/content-engine.md`.
 Specifics: a short-clips content channel across Instagram, TikTok, and YouTube.
 
+**Content source and rights (important, read before building the sourcing/asset pipeline):**
+The intended content is clips pulled from an existing YouTube ecosystem: "The Flock League" / "Flock Fantasy," a 12-team fantasy football league with a group channel (daily videos) plus 12+ individual creator channels for each team owner.
+
+The owner does NOT currently have direct, confirmed permission to clip and repost this content. The owner reports the league/creators have talked publicly about wanting clippers, but the owner has not personally reached out or been confirmed into any clipper program.
+
+**This is a hard gate, not a formality.** Downloading and republishing another creator's video content without permission is very likely copyright infringement (Content ID claims, takedowns, platform strikes, possible channel bans -- hard to undo). The AI declined to build an automated scrape-and-repost pipeline against unconfirmed permission and will not build the content-sourcing / asset-pulling tooling for this specific source until the owner has an actual confirmed yes (replying to the league's clipper callout, joining whatever program/Discord they referenced, or a direct DM/agreement).
+
+**What is NOT gated and can proceed now:** the channel's own identity (name/handle, look, voice) -- this does not depend on the rights question and is safe to build today (Step 1 of 03-build-order.md).
+
+**Next action for the owner (parallel to-do, not blocking today's build):** confirm participation in the Flock League's clipper program / get an explicit yes before we wire the actual video-sourcing and posting pipeline (Step 2 of 03-build-order.md, tool wiring).
+
 **5b. Trading module:** No / not now. Trading gate NOT passed. Do not build `modules/analyst-agent.md` or `modules/paper-trading.md`.
 
 **6. Starting point:** Starting cold, nothing live yet.
