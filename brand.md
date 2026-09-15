@@ -45,6 +45,14 @@ Noted here so the asset step picks the right voice once that tool exists.
 Shared login email: flockfantasyrewind@gmail.com (dedicated, separate from
 owner's work email, used to sign into every platform account below).
 
+Exception: Facebook. The owner's first Facebook attempt got deleted (tried to
+name a personal profile "Flock Fantasy," which Facebook blocks - profiles must
+use a real name, only Pages can use a brand name), which locked
+flockfantasyrewind@gmail.com out of Facebook for a cooldown period. The
+personal profile that admins the Facebook Page uses a separate login instead:
+flockfantasyrewindfb@gmail.com. This is a backend-only login (nobody sees it
+publicly); the Page itself still uses the same name/handle convention below.
+
 Naming convention (use everywhere, every platform):
 - @handle / username field: `flockfantasyrewind` - all lowercase, no spaces,
   identical on every platform (matches what TikTok forces anyway).
