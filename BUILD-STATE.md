@@ -2,7 +2,9 @@
 Updated: 2026-09-15
 
 ## Where we are
-Build order step: 1 of 7 (foundation / channel identity) - just completed.
+Build order step: 1 of 7 (foundation / channel identity), extended into
+platform account setup (part of content-engine.md Step 0, normally Step 2,
+but pulled forward at the owner's request since it was their top priority).
 Money-maker: content channel, short-form fantasy football clips (see PROFILE.md).
 Infrastructure: settled as VPS (owner wants 24/7), actual server setup deferred
 to the automation step.
@@ -10,11 +12,27 @@ to the automation step.
 ## Done and proven
 - Interview complete, PROFILE.md written and confirmed by owner.
 - Channel identity approved -> `brand.md` (name: "Flock Fantasy Rewind", palette,
-  writing voice). Owner picked the name knowing the risk (see below).
+  writing voice, Name/Handle naming convention). Owner picked the name knowing
+  the affiliation risk (see below).
 - Memory vault seeded: `memory/README.md`, `memory/lessons.md`, `PROFILE.md`.
+- Shared login email created: flockfantasyrewind@gmail.com.
+- YouTube channel created (@FlockFantasyRewind - needs lowercase fix, see
+  brand.md checklist).
+- TikTok account created (lowercase flockfantasyrewind).
+- Bio/About copy drafted for Facebook and YouTube (in chat, not yet copied
+  into brand.md as final if owner wants it saved).
 
 ## Half done / not started
-- Nothing built yet for tools, spend cap, crew, or the pipeline itself.
+- Facebook Page: created, but name stuck on the owner's personal name instead
+  of "Flock Fantasy Rewind". Unresolved when the owner paused. See
+  brand.md checklist for troubleshooting steps already suggested (Page vs
+  profile mixup, Meta Business Suite, or delete-and-recreate if still new).
+- Instagram: not started, blocked on the Facebook Page fix above.
+- Pinterest: not started.
+- Profile pictures: not decided (Canva placeholder now vs. wait for a real
+  generated logo later). Confirmed: do NOT reuse The Flock League's own
+  logo/photo (see memory/lessons.md).
+- Nothing built yet for tools, spend cap, crew, or the actual content pipeline.
 
 ## Blocked on the owner (read this first next session)
 - **Content-sourcing permission (urgent, gates real progress).** The plan is to
@@ -35,13 +53,16 @@ to the automation step.
   for a VPS.
 
 ## Next action
-Once the owner confirms clipper permission (or decides to pivot), move to Step 2
-of 03-build-order.md: wire the content tools (Zernio for posting, Higgsfield for
+Owner is on a lunch pause. When they're back:
+1. Resume Facebook Page name fix, then Instagram (needs the Page linked).
+2. Then Pinterest.
+3. Decide on a placeholder profile picture (or wait for a real logo).
+Once all 5 accounts are up, the identity/account-setup work (pulled forward
+from content-engine.md Step 0) is done. Then move to Step 2 of
+03-build-order.md: wire the content tools (Zernio for posting, Higgsfield for
 video, a male-voice TTS/voiceover tool), set the real daily spend cap in code,
 and stand up the fuller memory vault. Do this BEFORE building the crew (Step 3).
 
-If the owner has not resolved permission and wants to keep moving in the
-meantime, safe work that does not depend on it: none of the actual sourcing
-tools should be wired, but platform account creation groundwork (checking
-handle availability across TikTok/Instagram/YouTube, per content-engine.md
-Step 0) is fine to help with once the name is finalized.
+Still unresolved and still gating the real sourcing/posting pipeline:
+clipper permission from The Flock League (owner has not reached out yet as of
+this update). Ask about it next session if it has not come up.

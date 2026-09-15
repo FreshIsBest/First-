@@ -55,14 +55,20 @@ Fix pending: YouTube handle was originally set to @FlockFantasyRewind
 
 Platform account checklist (content-engine.md Step 0):
 - [x] Gmail / shared login email created.
-- [x] YouTube channel: @FlockFantasyRewind
+- [x] YouTube channel: @FlockFantasyRewind (fix pending: change handle to
+      lowercase @flockfantasyrewind to match the naming convention below).
+- [x] TikTok: account created (username lowercase flockfantasyrewind, per
+      TikTok's own rules). Still need to confirm it's switched to Business.
 - [~] Facebook Page: created but Page name stuck on the owner's personal name
-      instead of "Flock Fantasy Rewind" (rename not saving). Paused, revisit
-      before doing Instagram (Instagram needs a correctly-named linked Page).
+      instead of "Flock Fantasy Rewind" (rename not saving). Paused, owner
+      revisiting after lunch. Blocks Instagram (needs a correctly-named
+      linked Page).
 - [ ] Instagram, switched to Professional/Business, linked to the Facebook Page.
       BLOCKED on the Facebook Page fix above.
-- [ ] TikTok, switched to Business account.
-- [ ] Pinterest, switched to Business account.
+- [ ] Pinterest, switched to Business account. Not started yet.
+- [ ] Profile picture: decision pending (Canva placeholder now, vs. wait for
+      a generated logo once the image tool is wired up). Do NOT reuse The
+      Flock League's own logo/photo (see memory/lessons.md).
 
 ## Visual style (content, not product)
 Style: clean editing, high energy. Dark navy base with the orange-red accent
