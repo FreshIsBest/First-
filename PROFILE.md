@@ -76,6 +76,18 @@ Owner paused the above and pivoted to an EXISTING sports card account instead:
   likely moot for this path since real card content needs no paid AI
   generation tools (it is the owner's own photography/video).
 
+**Gathered details (2026-09-15, after the pivot, before building anything):**
+- "Better content" means, in the owner's own words: production quality and
+  growth/engagement. Not just posting volume, and not purely about closing
+  sales - though the flip side still matters (see content mix above).
+- Old posts from ~4 years ago stay up as-is. No comeback narrative or
+  explanation of the gap; new content just starts appearing.
+- Gear: phone only, no lighting/backdrop/ring-light setup yet.
+- Current account size: small but real (roughly a few hundred to a couple
+  thousand followers) - worth re-engaging, not a cold start.
+See `brand-kereks-sports.md` for the approved channel identity (palette,
+voice, platforms) built from these answers.
+
 **5b. Trading module:** No / not now. Trading gate NOT passed. Do not build `modules/analyst-agent.md` or `modules/paper-trading.md`.
 
 **6. Starting point:** Starting cold, nothing live yet.

@@ -2,77 +2,83 @@
 Updated: 2026-09-15
 
 ## Where we are
-Build order step: 1 of 7 (foundation / channel identity), extended into
-platform account setup (part of content-engine.md Step 0, normally Step 2,
-but pulled forward at the owner's request since it was their top priority).
-Money-maker: content channel, short-form fantasy football clips (see PROFILE.md).
-Infrastructure: settled as VPS (owner wants 24/7), actual server setup deferred
-to the automation step.
+Build order step: 1 of 7 (foundation / channel identity) - DONE for the
+active path. Next up is Step 2 (tools + spend cap + memory) for kereks_sports.
+Money-maker: ACTIVE = kereks_sports, real sports card content (Instagram +
+TikTok, already exist, dormant ~4 years). See PROFILE.md Section C-2.
+Flock Fantasy Rewind (fantasy football) is PAUSED, not abandoned - see the
+"PAUSED PATH" section below, preserved as-is.
+Infrastructure: settled as VPS (owner wants 24/7), actual server setup
+deferred to the automation step (Step 6).
 
-## Done and proven
-- Interview complete, PROFILE.md written and confirmed by owner.
-- Channel identity approved -> `brand.md` (name: "Flock Fantasy Rewind", palette,
-  writing voice, Name/Handle naming convention). Owner picked the name knowing
-  the affiliation risk (see below).
+## Done and proven (kereks_sports, active path)
+- Gathered real details before building anything (rule 6): what "better"
+  means (production quality + growth/engagement), old posts stay up with no
+  comeback narrative, phone-only gear, small-but-real existing audience.
+  Recorded in PROFILE.md Section C-2.
+- Channel identity built and approved -> `brand-kereks-sports.md`: palette
+  (red/white/blue, owner's own choice, concrete hex values given), voice
+  guide (approved as drafted: knowledgeable/genuine tone, PC + flip example
+  lines), platforms scoped to IG + TikTok only (not the 5-platform default).
+  No brand name/handle decision needed - kereks_sports already exists.
+- Memory vault updated: `memory/README.md` now points to
+  `brand-kereks-sports.md` as the active identity file, `memory/lessons.md`
+  has the pivot lessons (content mix = both PC and flip, no comeback
+  narrative, phone-only gear, no AI-generated visuals needed for this path).
+
+## Half done / not started (kereks_sports)
+- Nothing built yet for tools, spend cap, or the crew for this path.
+- No Higgsfield/Meshy needed for this path (real photography, not AI-
+  generated visuals) - this differs from the blueprint's content-engine
+  default and is noted in brand-kereks-sports.md so it is not mis-wired
+  later.
+- Zernio (post-to-all) still needs wiring, scoped to just IG + TikTok.
+- Daily spend cap still not set by the owner. Likely a smaller number than
+  a typical content path since there is no metered video/3D generation here
+  - flag that to the owner when it comes up, do not just assume a number.
+
+## Next action
+Move to Step 2 of 03-build-order.md for kereks_sports:
+1. Get a real daily spend cap number from the owner (even if it ends up
+   small, since this path has little metered spend - do not skip asking).
+2. Wire Zernio, scoped to IG + TikTok only, prove it with one real test
+   connection call.
+3. Stand up the fuller memory vault per modules/memory.md, loading
+   brand-kereks-sports.md's voice/palette so the crew (built at Step 3)
+   reads it from its first run.
+Do this before building the crew (Step 3).
+
+## PAUSED PATH (2026-09-15): Flock Fantasy Rewind - preserved, not deleted
+Everything below was true when the owner paused this path to pivot to
+kereks_sports. Nothing here was undone; resume it later if the owner wants.
+
+- Interview complete, PROFILE.md written and confirmed by owner (Section C
+  original answers).
+- Channel identity approved -> `brand.md` (name: "Flock Fantasy Rewind",
+  palette, writing voice, Name/Handle naming convention).
 - Memory vault seeded: `memory/README.md`, `memory/lessons.md`, `PROFILE.md`.
-- Shared login email created: flockfantasyrewind@gmail.com.
-- YouTube channel created (@FlockFantasyRewind - needs lowercase fix, see
-  brand.md checklist).
+- Shared login email created: flockfantasyrewind@gmail.com. Separate
+  Facebook admin login: flockfantasyrewindfb@gmail.com (see brand.md).
+- YouTube channel created (@FlockFantasyRewind - needs lowercase fix).
 - TikTok account created (lowercase flockfantasyrewind).
-- Bio/About copy drafted for Facebook and YouTube (in chat, not yet copied
-  into brand.md as final if owner wants it saved).
-
-## Half done / not started
-- Facebook Page: created, but name stuck on the owner's personal name instead
-  of "Flock Fantasy Rewind". Unresolved when the owner paused. See
-  brand.md checklist for troubleshooting steps already suggested (Page vs
-  profile mixup, Meta Business Suite, or delete-and-recreate if still new).
+- Facebook Page: created, but name stuck on the owner's personal name
+  instead of "Flock Fantasy Rewind". Unresolved when the owner paused.
 - Instagram: not started, blocked on the Facebook Page fix above.
 - Pinterest: not started.
-- Profile pictures: not decided (Canva placeholder now vs. wait for a real
-  generated logo later). Confirmed: do NOT reuse The Flock League's own
-  logo/photo (see memory/lessons.md).
-- Nothing built yet for tools, spend cap, crew, or the actual content pipeline.
+- Profile pictures: not decided. Confirmed: do NOT reuse The Flock League's
+  own logo/photo (see memory/lessons.md).
 
-## Blocked on the owner (read this first next session)
-- **Content-sourcing permission (urgent, gates real progress).** The plan is to
-  clip content from The Flock League / Flock Fantasy (a 12-team fantasy football
-  YouTube ecosystem). Owner does NOT have confirmed permission yet, only that the
-  league has talked publicly about wanting clippers. Owner chose to proceed and
-  name the channel "Flock Fantasy Rewind" anyway, accepting the affiliation risk.
-  Do NOT build the actual video-download/clip/repost pipeline (03-build-order.md
-  Step 2 tool-wiring for this money-maker) and do NOT let the owner register
-  public social handles or post publicly under this name until they confirm
-  permission (reply to the league's clipper callout, join whatever
-  program/Discord they referenced, or get a direct yes). Ask about this first
-  thing next session if it has not come up.
-- **Daily spend cap:** owner deferred picking a number. Need a real number
-  before Step 2 (tool wiring / spend cap in code).
-- **Budget tension:** Claude Pro (~$20/mo) + a VPS (~$5-6/mo) is at/over the
-  owner's stated under-$25/mo cap. Not urgent, but flag again before signing up
-  for a VPS.
+**Still gating this path if it resumes:** clipper permission from The Flock
+League. Owner could not reach Mason Dodd directly; the only confirmation
+obtained was a DM "yes" from an unnamed team manager, flagged as too
+narrow/unverifiable to authorize clipping the league's footage. Decision
+made: if resumed, the pipeline uses real fantasy stats/facts + AI-generated
+visuals (Higgsfield), NOT lifted footage - this sidesteps the rights
+question. The name "Flock Fantasy Rewind" still implies affiliation and was
+never covered by that decision either; do not register public handles or
+post publicly under this name until permission is actually confirmed.
 
-## PIVOT (2026-09-15, same day, later): money-maker changed
-Owner is pausing the Flock Fantasy Rewind build (fantasy football content)
-to focus on an EXISTING sports card Instagram + TikTok instead, asking for
-help making better content there. Everything above is preserved, not
-deleted - Flock Fantasy Rewind can be resumed later if the owner wants.
-Gathering real details on the sports card accounts now (handles, current
-content, what "better" means) before building anything, per rule 6 (build
-from real answers, do not guess). See PROFILE.md for the fresh notes once
-captured.
-
-## Next action (OLD - Flock Fantasy Rewind, paused)
-Owner is on a lunch pause. When they're back:
-1. Resume Facebook Page name fix, then Instagram (needs the Page linked).
-2. Then Pinterest.
-3. Decide on a placeholder profile picture (or wait for a real logo).
-Once all 5 accounts are up, the identity/account-setup work (pulled forward
-from content-engine.md Step 0) is done. Then move to Step 2 of
-03-build-order.md: wire the content tools (Zernio for posting, Higgsfield for
-video, a male-voice TTS/voiceover tool), set the real daily spend cap in code,
-and stand up the fuller memory vault. Do this BEFORE building the crew (Step 3).
-
-Still unresolved and still gating the real sourcing/posting pipeline:
-clipper permission from The Flock League (owner has not reached out yet as of
-this update). Ask about it next session if it has not come up.
+**Budget tension (still real if both paths ever run together):** Claude Code
+Pro (~$20/mo) + a VPS (~$5-6/mo) is at/over the owner's stated under-$25/mo
+cap. Not urgent for kereks_sports alone (little to no metered spend), but
+flag again before provisioning a VPS if Flock Fantasy Rewind resumes too.
