@@ -1,6 +1,6 @@
 # Owner profile
 
-Interview in progress. This file drives every later build decision.
+Finalized. Confirmed by the owner. This file drives every later build decision.
 
 ## Section 0: Starting point
 
@@ -12,9 +12,9 @@ Interview in progress. This file drives every later build decision.
 
 ## Section A: Where it runs
 
-**1. Computer:** Decent, modern machine that can stay on.
+**1. Computer:** Decent, modern machine. Correction from owner: it is never powered off, but it does sleep/rest sometimes (not a true always-on machine while awake).
 
-**2. 24/7 need:** Yes, always on -> points to a VPS regardless of the machine (confirm and lock in at `05-infrastructure.md`).
+**2. 24/7 need:** Yes, always on -> VPS. Settled (Step 2 routing decision). Actual server signup and setup happens later, at the automation step (03-build-order.md Step 6 / START-HERE Step 8), per 05-infrastructure.md and SETUP.md. This pick is doubly confirmed since the machine sleeps sometimes, which would pause scheduled jobs if run locally anyway.
 
 **2b. Operating system:** Windows -> commands run through WSL (recommended) or Git Bash; scheduled jobs use Task Scheduler, not cron.
 
@@ -23,6 +23,7 @@ Interview in progress. This file drives every later build decision.
 **3. AI engine:** Claude Code Pro (~$20/mo).
 
 **4. Monthly budget:** Under $25 (lean: engine only, no ads yet; build the smallest thing that ships).
+Flagged: Claude Code Pro (~$20) + a cheap VPS (~$5-6, needed later for the 24/7 requirement above) puts the owner at or slightly over this cap. Owner has been told; revisit the exact number when we actually provision the VPS (automation step).
 
 ## Section C: Your money-maker
 
