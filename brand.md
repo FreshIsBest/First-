@@ -44,7 +44,14 @@ Noted here so the asset step picks the right voice once that tool exists.
 ## Accounts
 Shared login email: flockfantasyrewind@gmail.com (dedicated, separate from
 owner's work email, used to sign into every platform account below).
-Target handle: flockfantasyrewind (same across every platform if available).
+
+Naming convention (use everywhere, every platform):
+- @handle / username field: `flockfantasyrewind` - all lowercase, no spaces,
+  identical on every platform (matches what TikTok forces anyway).
+- Display / "Name" field (wherever a platform has one separate from the
+  handle): `Flock Fantasy Rewind` - proper case, spaces.
+Fix pending: YouTube handle was originally set to @FlockFantasyRewind
+(capitalized) - change it to lowercase @flockfantasyrewind to match.
 
 Platform account checklist (content-engine.md Step 0):
 - [x] Gmail / shared login email created.
