@@ -49,8 +49,11 @@ Target handle: flockfantasyrewind (same across every platform if available).
 Platform account checklist (content-engine.md Step 0):
 - [x] Gmail / shared login email created.
 - [x] YouTube channel: @FlockFantasyRewind
-- [ ] Facebook Page (create before Instagram).
+- [~] Facebook Page: created but Page name stuck on the owner's personal name
+      instead of "Flock Fantasy Rewind" (rename not saving). Paused, revisit
+      before doing Instagram (Instagram needs a correctly-named linked Page).
 - [ ] Instagram, switched to Professional/Business, linked to the Facebook Page.
+      BLOCKED on the Facebook Page fix above.
 - [ ] TikTok, switched to Business account.
 - [ ] Pinterest, switched to Business account.
 
