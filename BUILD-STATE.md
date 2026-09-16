@@ -46,19 +46,41 @@ deferred to the automation step (Step 6).
   later.
 - Crew (Step 3) not started - waiting on Zernio being connected first.
 
-## Next action (blocked on the owner)
-1. Owner signs up for Zernio (docs.zernio.com, free tier, no card needed)
-   and connects the kereks_sports Instagram + TikTok accounts through
-   Zernio's OAuth flow. This needs the owner's own logins, cannot be done
-   for them.
-2. Owner puts the real ZERNIO_API_KEY into a `.env` file they create from
-   `.env.example` (never paste the key in chat).
-3. Once both accounts show "connected" in the Zernio dashboard, confirm
-   that with the owner (a "connected" status is enough proof for this step -
-   defer an actual test post to Step 4, so the account's first real content
-   in 4 years is real content, not filler).
-4. Then move to Step 3: build the crew (a content writer + a
+## Next action (blocked on the owner, mid-step)
+1. DONE: owner signed up for Zernio and connected kereks_sports Instagram +
+   TikTok (owner reported both connected, not independently re-verified in
+   the dashboard - worth a quick confirm next session).
+2. DONE: owner generated a Zernio API key (dashboard shows it labeled
+   ".env", that label is just a Zernio dashboard name, unrelated to the
+   actual .env file).
+3. IN PROGRESS, PAUSED MID-TASK: `.env` file already exists in the project
+   root with an empty `ZERNIO_API_KEY=` line (created by the AI as a
+   scaffold). Owner was walking through Claude Code's web UI - found the
+   sidebar, then found a "Files" tab / `</>` icon near the top (this took
+   several screenshots to locate, a total beginner on an unfamiliar UI) -
+   and was about to open `.env` and paste the key after the `=` when they
+   paused for a break. **Confirmed as of this update: the key is NOT yet in
+   `.env` (value still empty).** Next session, resume exactly here: help
+   them open `.env` in that Files view, paste the key, save. Do not
+   re-explain Zernio signup or account-connecting, that part is done.
+4. Once the key is confirmed present (check existence/non-empty only, never
+   print the value), move to proving the connection: a real Zernio API call
+   or MCP tool listing the two connected accounts is enough proof for this
+   step - defer an actual test POST/publish to Step 4, so the account's
+   first real content in 4 years is real content, not filler.
+5. Then move to Step 3: build the crew (a content writer + a
    caption/shot-list agent, no asset-generation agent needed for this path).
+
+## Note on this session's friction (read before continuing)
+Getting the Zernio key into `.env` took many back-and-forth turns because
+the owner (total beginner, per PROFILE.md) could not find a file editor in
+the Claude Code web UI at first, mistook the message attachment "+" menu
+for a file browser, and needed several screenshots before locating the
+real Files tab. If this comes up again with a new secret, skip straight to:
+(1) pre-create the file with an empty KEY= placeholder so they only need to
+open and paste, (2) ask for a screenshot early rather than describing UI
+elements blind, (3) explicitly warn it's not the same as the message
+attachment button.
 
 ## PAUSED PATH (2026-09-15): Flock Fantasy Rewind - preserved, not deleted
 Everything below was true when the owner paused this path to pivot to
