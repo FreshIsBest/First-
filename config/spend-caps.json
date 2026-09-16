@@ -1,0 +1,7 @@
+{
+  "kereks_sports": {
+    "daily_tool_spend_cap_usd": 0,
+    "set_by_owner_on": "2026-09-16",
+    "note": "Tool/API spend only (Zernio, etc). The owner's own card-buying budget (up to $200/day, per PROFILE.md) is separate and is never spent automatically by this system - rule 3 in CLAUDE.md. The dispatcher built at Step 6 must read this file and refuse any paid tool action once today's spend would exceed this cap."
+  }
+}

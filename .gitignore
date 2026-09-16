@@ -1,0 +1,2 @@
+# Secrets. Never commit this file - see CLAUDE.md rule 11.
+.env

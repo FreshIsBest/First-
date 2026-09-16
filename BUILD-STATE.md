@@ -2,8 +2,8 @@
 Updated: 2026-09-15
 
 ## Where we are
-Build order step: 1 of 7 (foundation / channel identity) - DONE for the
-active path. Next up is Step 2 (tools + spend cap + memory) for kereks_sports.
+Build order step: 2 of 7 (tools + spend cap + memory) for kereks_sports, IN
+PROGRESS. Step 1 (foundation / channel identity) is DONE for the active path.
 Money-maker: ACTIVE = kereks_sports, real sports card content (Instagram +
 TikTok, already exist, dormant ~4 years). See PROFILE.md Section C-2.
 Flock Fantasy Rewind (fantasy football) is PAUSED, not abandoned - see the
@@ -21,32 +21,44 @@ deferred to the automation step (Step 6).
   guide (approved as drafted: knowledgeable/genuine tone, PC + flip example
   lines), platforms scoped to IG + TikTok only (not the 5-platform default).
   No brand name/handle decision needed - kereks_sports already exists.
-- Memory vault updated: `memory/README.md` now points to
-  `brand-kereks-sports.md` as the active identity file, `memory/lessons.md`
-  has the pivot lessons (content mix = both PC and flip, no comeback
-  narrative, phone-only gear, no AI-generated visuals needed for this path).
+- Spend cap set: $0/day for tool/API spend, in `config/spend-caps.json`.
+  Confirmed separate from the owner's own card-buying budget (up to
+  $200/day when actively flipping - owner's own money, spent by the owner,
+  never automated, per rule 3). $0 works because this path needs no
+  Higgsfield/Meshy (real phone photography) and Zernio's free tier (2
+  accounts, no card) exactly covers IG + TikTok.
+- `.gitignore` and `.env.example` added so the coming Zernio key never gets
+  committed (rule 11). Owner still needs to create the real `.env` file
+  themselves once they have the key.
+- Fuller memory vault built per modules/memory.md: `memory/INDEX.md` plus
+  `decisions/`, `preferences/`, `lessons/`, `reference/` folders, one fact
+  per file, dated. Old flat `lessons.md` folded into the new structure and
+  removed. Both paths' voice/preferences are in there; kereks_sports is
+  marked active throughout.
 
 ## Half done / not started (kereks_sports)
-- Nothing built yet for tools, spend cap, or the crew for this path.
+- Zernio not wired yet. Free tier fits the $0 cap (2 accounts, no card),
+  but signing up and connecting IG + TikTok is an OWNER action (needs their
+  logins) - see Next action.
 - No Higgsfield/Meshy needed for this path (real photography, not AI-
   generated visuals) - this differs from the blueprint's content-engine
   default and is noted in brand-kereks-sports.md so it is not mis-wired
   later.
-- Zernio (post-to-all) still needs wiring, scoped to just IG + TikTok.
-- Daily spend cap still not set by the owner. Likely a smaller number than
-  a typical content path since there is no metered video/3D generation here
-  - flag that to the owner when it comes up, do not just assume a number.
+- Crew (Step 3) not started - waiting on Zernio being connected first.
 
-## Next action
-Move to Step 2 of 03-build-order.md for kereks_sports:
-1. Get a real daily spend cap number from the owner (even if it ends up
-   small, since this path has little metered spend - do not skip asking).
-2. Wire Zernio, scoped to IG + TikTok only, prove it with one real test
-   connection call.
-3. Stand up the fuller memory vault per modules/memory.md, loading
-   brand-kereks-sports.md's voice/palette so the crew (built at Step 3)
-   reads it from its first run.
-Do this before building the crew (Step 3).
+## Next action (blocked on the owner)
+1. Owner signs up for Zernio (docs.zernio.com, free tier, no card needed)
+   and connects the kereks_sports Instagram + TikTok accounts through
+   Zernio's OAuth flow. This needs the owner's own logins, cannot be done
+   for them.
+2. Owner puts the real ZERNIO_API_KEY into a `.env` file they create from
+   `.env.example` (never paste the key in chat).
+3. Once both accounts show "connected" in the Zernio dashboard, confirm
+   that with the owner (a "connected" status is enough proof for this step -
+   defer an actual test post to Step 4, so the account's first real content
+   in 4 years is real content, not filler).
+4. Then move to Step 3: build the crew (a content writer + a
+   caption/shot-list agent, no asset-generation agent needed for this path).
 
 ## PAUSED PATH (2026-09-15): Flock Fantasy Rewind - preserved, not deleted
 Everything below was true when the owner paused this path to pivot to
